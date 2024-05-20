@@ -196,7 +196,7 @@ class _GenderPageState extends State<GenderPage> {
         children: [
           const Headers(name1: "Name:", boolean: false, color: Colors.black),
           const Gap(5),
-          TextFormField(
+          TextField(
             controller: nameController,
             textInputAction: TextInputAction.next,
             onChanged: (value) {
@@ -337,7 +337,7 @@ class _GenderPageState extends State<GenderPage> {
           const Gap(10),
           const Headers(name1: "Password", boolean: false, color: Colors.black),
           const Gap(5),
-          TextFormField(
+          TextField(
             onChanged: (value) {
               login();
             },
